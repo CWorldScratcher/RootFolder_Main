@@ -1,0 +1,397 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE
+================================== */
+
+body {
+    background-color: #fde4dd;
+}
+
+nav {
+    background-color: #1f1f1f;
+    box-shadow: 0 0 9px rgba(42, 42, 42, 1);
+    height: 75px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+nav .logo {
+    display: flex;
+    flex: 3;
+}
+
+nav .logo h1 {
+    font-family: KoHo;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 17px;
+    margin-left: 5px;
+}
+
+nav .menu {
+    position: relative;
+    float: right;
+    top: -2.9em;
+    right: 1.5em;    
+    justify-content: space-around;
+}
+
+nav .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    padding: 0 17px;
+    transition: all 60ms;
+}
+
+nav .menu a:hover {
+    text-decoration: none;
+    color: #cacaca;
+    background-color: #6d6d6d;
+    border-radius: 10em;
+    font-size: 1.075em;
+    padding: 0 17px;
+    transition: all 60ms;
+}
+
+main {
+    padding-left: 142px;
+    padding-right: 142px;
+
+}
+
+aside {
+    display: none;
+}
+
+.pages {
+    position: relative;
+    top: 90px;
+    margin-top: 0px;
+    padding: 390px 30px;
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.pages .cases div {
+    position: relative;
+    float: left;
+    width: 430px;
+    height: 230px;
+    background-image: url(../img/LLL.jpg);
+    background-position: center;
+    background-size: 430px;
+    border-radius: 1em;
+    margin: 20px 10px 80px;
+    bottom: 15em;
+}
+
+.pages .cases h2 {
+    font-size: 2em;
+    position: relative;
+    bottom: 8.5em;
+}
+
+.pages .cases a {
+    text-decoration: none;
+    color: #202831;
+    font-weight: 700;
+    font-size: 2.7em;
+    text-align: center;
+}
+
+.pages .cases a p {
+    padding-top: 23%;
+}
+footer {
+    background-color: #222222;
+    position: relative;
+    bottom: -269px;
+    height: 225px;
+    margin-top: 300px;
+    clear: both;
+    overflow: hidden;
+}
+
+footer ul h1, a {
+    cursor: pointer;
+    color: #cccccc;   
+}
+
+footer .footer-menu-1 {
+    position: relative;
+    left: 10px;
+    top: 3em;
+}
+
+footer .footer-menu-1 h1, .footer-menu-2 h1 {
+    font-size: 2em;
+    position: relative;
+    top: -1.5em;
+}
+
+footer .footer-menu-1 a, .footer-menu-2 a {
+    position: relative;
+    font-size: 16px;
+    top: -40px;
+    padding: 40px 0;
+}
+
+footer .footer-menu-2 {
+    position: relative;
+    left: 200px;
+    top: -9em;
+}
+
+
+.footer-links a, .footer-menu-1 li a{
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 2;
+}
+
+/* Contact */
+
+
+form .h1-con {
+    position: relative;
+    font-family: 'Fira Sans Condensed';
+    display: block;
+    font-size: 5em;
+    left: 0.5;
+}
+
+#gmap { 
+    height: 90em; 
+    left: -30px;
+    position: relative; 
+    top: 0em; 
+    width: 100%; 
+    z-index: 0;
+    border-radius: 8px; 
+}
+
+form label {
+    font-family: 'Fira Sans';
+    font-size: large;
+    font-weight: 400;
+}
+
+form p {
+    color: #6d6d6d;
+    font-size: 0.85em;
+}
+
+.div-con {
+    position: relative;
+
+    z-index: 1;
+} 
+
+.pages-con {
+    position: relative;
+    width: 60%;
+    height: 30em;
+    top: -75em;
+    border-radius: 20px;
+    background-color: #FFF;
+    z-index: 1;
+}
+
+#clip-con {
+    width: 700px;
+    position: relative;
+    left: 275px;
+    top: -170px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 880px){
+    .menu-btn {
+        position: relative;
+        float: right;
+        top: -2.5em;        
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+      }
+      .menu-btn__burger {
+        width: 50px;
+        height: 6px;
+        background: #fff;
+        border-radius: 2px;
+        box-shadow: 0 2px 5px rgba(241, 255, 47, 0.2);
+        transition: all .5s ease-in-out;
+      }
+
+      .menu-btn__burger::before,
+      .menu-btn__burger::after {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 6px;
+        background: #fff;
+        border-radius: 2px;
+        box-shadow: 0 2px 5px rgba(241, 255, 47, 0.2);
+        transition: all .5s ease-in-out;
+      }
+
+      .menu-btn__burger::before {
+        transform: translateY(-16px);
+      }
+      .menu-btn__burger::after {
+        transform: translateY(16px);
+      }
+      /* ANIMATION */
+      .menu-btn.open .menu-btn__burger {
+        width: 30px;
+        transform: rotate(360deg);
+        background: transparent;
+        box-shadow: none;
+      }
+    
+      .menu-btn.open .menu-btn__burger::before {
+        transform: rotate(45deg);
+          }
+      .menu-btn.open .menu-btn__burger::after {
+        transform: rotate(-45deg);
+          }
+
+
+      
+      .menu {
+          display: none;
+      }
+
+    /* When Menu Button is checked, then we will make the aside (side bar) visible */
+    aside.shown {
+        display: flex;
+        position: relative;
+        background-color: #1f1f1f;
+        width: 7em;
+        height: 10em;
+        padding: 10px 0.1em;
+        float: right;
+        top: 30px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    
+    aside li a {
+        text-decoration: none;
+    }
+}
+
+::selection {
+    background-color: #3d3d3d;
+    color: #fff;
+}

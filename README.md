@@ -1,4 +1,3 @@
 # RootFolder_Main
- This is a code for a simple website, please give credits.
+This is a code for a simple website, please give credits.
  
-ignore the java.
